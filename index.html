@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo_button">
+            <img class="bib" src="./img/Link → main_logo.svg.png" alt="">
+            <button>
+                <img src="./img/location.svg fill.png" alt="">
+                <h3>Укажите свой адрес</h3>
+            </button>
+        </div>
+        <div class="alar">
+            <a href="">О нас</a>
+            <a href="">Меню</a>
+            <a href="">Акции</a>
+            <a href="">Филиалы</a>
+            <a href="">Контакты</a>
+        </div>
+        <img class="burger" src="./img/Background+Border.png" alt="">
+        <div class="burger-menu">
+            <div class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="section1">
+        <img src="./img/Container.png" alt="">
+    </div>
+    <h1 class="bbb">Сеты</h1>
+    <div class="section2">
+        <div class="cards">
+            <div class="card">
+                <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+                <h2>Qiyqiriq сет</h2>
+                <h2 class="summa">45 000 сум</h2>
+                <button onclick="showPrompt()">
+                    <img src="./img/SVG (1).png" alt="">
+                </button>
+            </div>
+            <!-- Другие карточки с аналогичным кодом -->
+        </div>
+    </div>
+    <footer>
+        <p>2024 Все права защищены</p>
+        <img src="./img/Link → main_logo.svg.png" alt="">
+    </footer>
+
+    <script>
+        function showPrompt() {
+            const userInput = prompt("qiyriq set qancha kere?");
+
+            switch (userInput) {
+                case '1':
+                    alert("45.000 boladi");
+                    break;
+                case '2':
+                    alert("90.000 boladi");
+                    break;
+                case '3':
+                    alert("135.000 boladi ");
+                    break;
+                default:
+                    alert("kamro ye ochpaz " );
+            }
+        }
+    </script>
+</body>
+</html>
